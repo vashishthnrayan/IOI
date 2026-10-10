@@ -4,10 +4,10 @@ def Hanoi (n ,a,b,c):
             return
 
         Hanoi(n-1,a,c,b)
-        print("Move disk ", n ,"from rod " ,a ,"to rod ",b)
+        print("Move disk ",n,"from rod ",a,"to rod ",b)
 
         Hanoi(n-1 , c ,b, a)
 
-n = int(input("input some num"))
+n = int(input("input some num:"))
 
 Hanoi(n,"A","B","C")
