@@ -1,1 +1,1 @@
-1
+input("track min price so far - sell when the gap beat the current best  .Press Enter ")
