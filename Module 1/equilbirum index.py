@@ -7,13 +7,13 @@ def eq_mid(n):
         for j in  range (i):
             left_sum += arr[j]
         for j in  range (i + 1 , size):
-             left_sum += arr[j]
+             right_sum+= arr[j]
         if left_sum == right_sum:
             return i
     return -1
 
 n=int(input("Enter n (try 5 or 6):"))
-guess = input("what is eq_mid ( " + str(n) + ") ?")
+guess = input("what is eq_mid (" + str(n) + ") ?")
 
 print(f"eq_mid({n}) = {eq_mid(n)}, your guess: {guess}")
 
